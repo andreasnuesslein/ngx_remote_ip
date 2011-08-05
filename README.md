@@ -1,5 +1,5 @@
 ngx\_remote\_ip
-=============
+===============
 
 This module adds the possibility to respond to a certain URL simply with the remote IP address, e.g.:
 
@@ -7,7 +7,7 @@ This module adds the possibility to respond to a certain URL simply with the rem
     123.123.123.123
 
 Installation
----------------
+------------
 To include this module in your nginx-installation either do:
 
     ./configure --add-module=/path/to/ngx_remote_ip-0.1/
@@ -18,7 +18,7 @@ or in Gentoo simple add this to your `/etc/make.profile`:
     NGINX_ADD_MODULES="/path/to/ngx_remote_ip-0.1/"
 
 Configuration
-------------------
+-------------
 Simply add a new server-declaration:
 
     server {
@@ -29,3 +29,8 @@ Simply add a new server-declaration:
       }
     }
 
+
+Credits
+-------
+Thanks to Evan Miller for his guide: http://www.evanmiller.org/nginx-modules-guide.html
+This module is heavily based upon it.
