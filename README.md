@@ -10,12 +10,12 @@ Installation
 ------------
 To include this module in your nginx-installation either do:
 
-    ./configure --add-module=/path/to/ngx_remote_ip-0.1/
+    ./configure --add-module=/path/to/ngx_remote_ip/
 
 
 or in Gentoo simple add this to your `/etc/make.profile`:
 
-    NGINX_ADD_MODULES="/path/to/ngx_remote_ip-0.1/"
+    NGINX_ADD_MODULES="/path/to/ngx_remote_ip/"
 
 Configuration
 -------------
